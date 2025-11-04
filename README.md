@@ -1,10 +1,10 @@
-# Scraper de Restaurantes - Montería
+# Scraper de Restaurantes - Medellín
 
-Herramienta que desarrollé para extraer datos de restaurantes desde Google Maps. La idea surgió porque necesitaba automatizar la recolección de información para proyectos de análisis de mercado local.
+Herramienta que desarrollé para extraer datos de restaurantes desde Google Maps. La idea surgió porque necesitaba automatizar la recolección de información para proyectos de análisis de mercado en Medellín.
 
 ## ¿Qué hace?
 
-Básicamente va a Google Maps, busca restaurantes en Montería (o cualquier ciudad que le pongas), y extrae toda la información relevante:
+Básicamente va a Google Maps, busca restaurantes en Medellín (o cualquier ciudad que le pongas), y extrae toda la información relevante:
 
 - Nombre y categoría
 - Rating y número de reseñas
@@ -40,7 +40,7 @@ scraper.buscar("Tu Ciudad, Departamento, Colombia")
 
 ## Por qué lo hice
 
-Me di cuenta que muchos proveedores y agencias necesitan bases de datos actualizadas de restaurantes para sus negocios. Extraer esto manualmente es tedioso, así que automaticé el proceso.
+Me di cuenta que muchos proveedores y agencias en Medellín necesitan bases de datos actualizadas de restaurantes para sus negocios. Extraer esto manualmente es tedioso, así que automaticé el proceso.
 
 ## Estructura del Excel generado
 
@@ -71,6 +71,7 @@ Esto lo puedes usar para:
 - Análisis de mercado gastronómico
 - Estudios de competencia
 - Prospección de ventas B2B
+- Análisis de zonas comerciales
 
 ## Disclaimer
 

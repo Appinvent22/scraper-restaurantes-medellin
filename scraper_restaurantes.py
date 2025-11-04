@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Scraper de restaurantes para Montería usando Google Maps
+Scraper de restaurantes para Medellín usando Google Maps
 Desarrollado para generar leads B2B de forma automatizada
 """
 
@@ -38,7 +38,7 @@ class ScraperRestaurantes:
         
         self.datos_restaurantes = []
         
-    def buscar(self, ciudad="Montería, Córdoba, Colombia"):
+    def buscar(self, ciudad="Medellín, Antioquia, Colombia"):
         """
         Busca restaurantes en la ciudad especificada
         """
@@ -240,7 +240,7 @@ class ScraperRestaurantes:
         
         if nombre is None:
             fecha = datetime.now().strftime("%Y%m%d_%H%M%S")
-            nombre = f"restaurantes_monteria_{fecha}.xlsx"
+            nombre = f"restaurantes_medellin_{fecha}.xlsx"
         
         # Crear DataFrame
         df = pd.DataFrame(self.datos_restaurantes)
@@ -294,14 +294,14 @@ def main():
     Función principal
     """
     print("=" * 50)
-    print("SCRAPER DE RESTAURANTES - MONTERÍA")
+    print("SCRAPER DE RESTAURANTES - MEDELLÍN")
     print("=" * 50)
     
     scraper = ScraperRestaurantes()
     
     try:
         # Buscar y extraer
-        scraper.buscar("Montería, Córdoba, Colombia")
+        scraper.buscar("Medellín, Antioquia, Colombia")
         
         # Guardar
         archivo = scraper.guardar_excel()
