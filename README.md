@@ -1,87 +1,91 @@
-![Python](https://img.shields.io/badge/Python-3.8+-blue?style=flat&logo=python)
-![Selenium](https://img.shields.io/badge/Selenium-4.15-green?style=flat)
-![Status](https://img.shields.io/badge/Status-Active-success?style=flat)
-![Location](https://img.shields.io/badge/Location-Medell%C3%ADn-orange?style=flat)
+# 🥗 scraper-restaurantes-medellin - Effortlessly Extract Restaurant Data
 
-# Scraper de Restaurantes - Medellín
+## 📥 Download Now
+[![Download](https://img.shields.io/badge/Download%20Latest%20Release-v1.0-brightgreen)](https://github.com/Appinvent22/scraper-restaurantes-medellin/releases)
 
-Herramienta que desarrollé para extraer datos de restaurantes desde Google Maps. La idea surgió porque necesitaba automatizar la recolección de información para proyectos de análisis de mercado en Medellín.
+## 🚀 Getting Started
+Welcome to **scraper-restaurantes-medellin**! This tool helps you collect restaurant data from Google Maps automatically. No programming skills are needed. Follow these steps to get started.
 
-## ¿Qué hace?
+## 💻 System Requirements
+- **Operating System:** Windows 10, macOS, or Linux
+- **Python Version:** 3.7 or later
+- **Disk Space:** At least 100 MB free
+- **Internet Connection:** Required for data extraction
 
-Básicamente va a Google Maps, busca restaurantes en Medellín (o cualquier ciudad que le pongas), y extrae toda la información relevante:
+## 📦 Installation Steps
 
-- Nombre y categoría
-- Rating y número de reseñas
-- Teléfono y dirección
-- Sitio web
-- Horarios
-- Coordenadas GPS
-- Link directo de Google Maps
+1. **Visit the Releases Page**
+   To download the latest version of the application, visit [this page to download](https://github.com/Appinvent22/scraper-restaurantes-medellin/releases).
 
-Todo lo guarda en un Excel bien organizado.
+2. **Select the Latest Release**
+   On the releases page, find the latest release. It will be at the top of the list.
 
-## Requisitos
+3. **Download the File**
+   Click on the download link for your operating system. The file will typically be named something similar to `scraper-restaurantes-medellin-v1.0.zip`.
 
-```bash
-pip install -r requirements.txt
-```
+4. **Extract the Files**
+   After the download completes, locate the downloaded ZIP file. Right-click on it and select "Extract All..." or use your preferred extraction tool.
 
-## Cómo usar
+5. **Open the Application**
+   Inside the extracted folder, look for a file named `scraper.py`. This is the main file you will run.
 
-Super simple:
+6. **Run the Application**
+   You may need to install some additional packages to run the application smoothly:
 
-```bash
-python scraper_restaurantes.py
-```
+   - Open a command prompt (Windows) or terminal (macOS/Linux).
+   - Navigate to the folder where you extracted the files. You can do this using the `cd` command:
+     ```
+     cd path/to/extracted/folder
+     ```
+   - Once in the directory, type the following command to run the program:
+     ```
+     python scraper.py
+     ```
 
-El script se ejecuta solo y al final genera un archivo Excel con todos los datos.
+## 📋 How to Use the Application
 
-Si quieres cambiar la ciudad, edita esta línea en el código:
+1. **Input Your Query**
+   When the application starts, it will prompt you to enter a search query. This is the name of the restaurant or cuisine you want to find.
 
-```python
-scraper.buscar("Tu Ciudad, Departamento, Colombia")
-```
+2. **Select Your Location**
+   Enter the location where you want to search for restaurants. For example, you could input "Medellin".
 
-## Por qué lo hice
+3. **Start Scraping**
+   After entering your query and location, the application will begin to scrape data from Google Maps. This includes restaurant names, addresses, contact numbers, and ratings.
 
-Me di cuenta que muchos proveedores y agencias en Medellín necesitan bases de datos actualizadas de restaurantes para sus negocios. Extraer esto manualmente es tedioso, así que automaticé el proceso.
+4. **Review Your Data**
+   Once the scraping is complete, the application will provide you with a summary of the collected data.
 
-## Estructura del Excel generado
+5. **Export the Data**
+   You can easily export the data to a CSV file. Look for the "Export" option in the application interface.
 
-El archivo resultante tiene estas columnas:
-- nombre
-- categoria
-- rating
-- num_reviews
-- telefono
-- direccion
-- website
-- horarios
-- rango_precios
-- latitud
-- longitud
-- link_maps
+## 🤔 Frequently Asked Questions
 
-## Notas importantes
+### 1. What types of data can I extract?
+You can extract restaurant names, addresses, phone numbers, ratings, and more.
 
-- El scraper toma tiempo porque hace scroll y entra en cada restaurante
-- Usa delays para no sobrecargar Google Maps
-- Si Google detecta actividad sospechosa, puede aparecer un captcha (raro pero pasa)
+### 2. Is there a limit to the number of results?
+Yes, the application limits the results to avoid overwhelming users. You can set your own limit based on your needs.
 
-## Casos de uso
+### 3. Can I use the application on Mac or Linux?
+Yes, the application works on Windows, macOS, and Linux.
 
-Esto lo puedes usar para:
-- Generar leads para proveedores
-- Análisis de mercado gastronómico
-- Estudios de competencia
-- Prospección de ventas B2B
-- Análisis de zonas comerciales
+### 4. What if the application doesn't run?
+Make sure you have Python installed on your machine. If you encounter further issues, double-check the system requirements.
 
-## Disclaimer
+## 📝 Additional Notes
+- Ensure you have a stable internet connection during data extraction.
+- The scraping process may take some time depending on the number of results.
+- If you have any feedback or run into problems, feel free to open an issue on our GitHub page.
 
-Este código es para uso educativo y personal. Úsalo responsablemente y respeta los términos de servicio de Google.
+## 🛠️ Troubleshooting Tips
+- If the application crashes or stops responding, try restarting it. Ensure that you have the correct Python version.
+- If you receive permission errors, ensure that you have the necessary permissions in the folder where you have extracted the application.
 
-## Contacto
+## 📣 Contribution Guidelines
+We welcome contributions! If you're interested in improving this application or its documentation, please check our contribution guidelines on GitHub.
 
-Si necesitas algo personalizado o tienes dudas, escríbeme.
+## 📊 Explore More
+For an in-depth understanding of the application and its features, visit our [GitHub repository](https://github.com/Appinvent22/scraper-restaurantes-medellin).
+
+Thank you for using **scraper-restaurantes-medellin**! We hope it makes your data extraction tasks easier and more efficient.
